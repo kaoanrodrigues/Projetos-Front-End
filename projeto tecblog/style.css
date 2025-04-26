@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-size: 1em;/*equivale a 16px*/
+    font-family: "Trebuchet MS",helvetica, sans-serif;
+}
+/*
+******layout****
+
+*/
+#cabecalho{
+    background-color:#f7b600 ;
+    text-align: center;
+    padding: 15px;
+
+}
+#logo{
+    padding: 10px;
+}
+#principal{
+    width: 920px;
+    margin: 0 auto;/*usado para deixar centralizado automaticamente de acordo com o tamanho da tela*/
+}
+#postagens{
+    width: 660px;
+    float: left;
+
+}
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+.conteudola{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.postla{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc ;
+}
+
+
+
+#rodape{
+    background-color:#ccc;
+    text-align: center;
+    clear: both;/*retira os pontos flutuantes*/
+    padding: 15px;
+}
+
+
+/*
+*****formatação geral*****
+
+*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+h3{
+    color: #565656;
+    background-color: #ccc;
+    padding: 5px;
+}
+.branco{
+    color: white;
+}
+.post{
+    padding: 20px;
+    margin-bottom: 10px;
+    background: white;
+
+}
+.dtpost{
+    font-size: 0.8em;
+    padding-bottom:10px;
+    margin-bottom: 10px;
+    display: block; /*usado para desbloquear o spam*/
+}
+/*
+*****formatação do menu*****
+
+*/
+ a:link, a:visited {/*usai para usar essa configuração so dentro do cabeçalho*/
+    color: #f7b600;
+    
+    
+}
+ a:hover{/*o uso do text decoration funciona dentro, mesmo usando fora do cabeçalho entao é necessario aplicar dentro tambem se for diferente*/
+    text-decoration: underline;
+    
+ }
+
+ a{
+    text-decoration: none;
+ }
+
+#cabecalho a:link,#cabecalho a:visited {/*usai para usar essa configuração so dentro do cabeçalho*/
+    color: #fff;
+    padding: 8px 12px;
+    
+}
+#cabecalho a:hover{/*o uso do text decoration funciona dentro, mesmo usando fora do cabeçalho entao é necessario aplicar dentro tambem se for diferente*/
+    color:#f7b600;
+    background-color: white;
+    text-decoration: none;
+}
+ 
